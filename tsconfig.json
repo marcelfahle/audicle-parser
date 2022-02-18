@@ -1,0 +1,14 @@
+{
+    "exclude": ["node_modules", "typings"],
+    "compilerOptions": {
+	"typeRoots": [ "./types", "./node_modules/@types"],
+        "forceConsistentCasingInFileNames": true,
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "outDir": "./build",
+        "rootDir": "./src",
+        "target": "es6",
+        "skipLibCheck": true,
+        "strict": true
+    }
+}
